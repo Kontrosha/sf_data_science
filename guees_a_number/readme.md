@@ -12,7 +12,7 @@
 
 ### Description
 A game, where computer guesses number and try to find it.
-Source code can be found in folder [src](https://github.com/Kontrosha/sf_data_science/tree/main/guees_a_number/src) 
+Source code can be found in folder [src.](https://github.com/Kontrosha/sf_data_science/tree/main/guees_a_number/src)
 [Requirements](https://github.com/Kontrosha/sf_data_science/blob/main/guees_a_number/requirements.txt) for libraries to provide code correct work 
 
 ### Technical task
