@@ -23,7 +23,7 @@ GitHub is designed according to unit's requirements.
 4. Source code can be run on different devices: fixed versions of libraries in the form of a file requirements.txt or another configuration file format.
 
 ### Input data types
-The main source code is provided with function [`game_core_v3`](src/game.ipynb#"id": "IvaUUPIe-2fN") takes next input:
+The main source code is provided with function [`game_core_v3`](src/baseline.ipynb#"id": "IvaUUPIe-2fN") takes next input:
 - *number*: int, guessing number in range [1, 100]
 
 Code creates next output:
