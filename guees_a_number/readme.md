@@ -41,4 +41,4 @@ We have learn to use:
 - How to use **markdown** markup language for project documentation
 
 
-↑ [back to content](#content)
+⬆️ [back to content](#content) ⬆️
