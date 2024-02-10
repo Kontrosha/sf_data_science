@@ -27,6 +27,8 @@
   - [customer_and_transaction.xlsx](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/customer_and_transaction.xlsx) - исходные данные для задания
   - [table_creatation.sql](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/table_creation.sql) - скрипт с командами для создания таблиц
 
+Структоры баз данных приложены ссылками на dbdiagram.io, их можно найти в тексте ниже.
+
 ## Выполнение задания
 ### Структура базы данных
 База данных будем строить на основе [таблицы](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases/HW1/customer_and_transaction.xlsx).
