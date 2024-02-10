@@ -15,7 +15,7 @@
     - [Загрузка данных в таблицы](#загрузка-данных-в-таблицы)
 ---
 
-## Структура проекта
+## Структура проекта [наверх](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/HW1.md#содержание)
   Описание работы, выводы и выполняемые действия описаны в данном read.me (HW.md)
   Также есть несколько папок:
   - [csv_files](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases/HW1/csv_files) - папка с файлами после конвертации из xlsx
@@ -28,8 +28,8 @@
 
 Структуры баз данных приложены ссылками на dbdiagram.io, их можно найти в тексте ниже.
 
-## Выполнение задания
-### Структура базы данных
+## Выполнение задания [наверх](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/HW1.md#содержание)
+### Структура базы данных [наверх](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/HW1.md#содержание)
 База данных будем строить на основе [таблицы](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases/HW1/customer_and_transaction.xlsx).
 Файл содержит два листа с данными: transaction и customer. Вот краткое описание каждого из них:
 
@@ -68,8 +68,8 @@
 
 Базовая структура в [dbdiagram.io](https://dbdiagram.io/d/DB-HW-1-before-normalize-65c78d84ac844320aedd080d).
 
-### Нормализация базы данных
-#### Первая нормальная форма (1НФ)
+### Нормализация базы данных [наверх](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/HW1.md#содержание)
+#### Первая нормальная форма (1НФ) [наверх](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/HW1.md#содержание)
 **Исходная структура**
 
 Исходные данные содержались в двух листах Excel: transaction и customer. Оба листа включали в себя множество атрибутов, некоторые из которых (например, информация о продуктах в transaction и адресная информация в customer) могли привести к дублированию данных при множественных записях.
@@ -83,7 +83,7 @@
 Атомарность атрибутов: Все атрибуты были приведены к атомарной форме, то есть каждый атрибут содержит неделимое значение.
 
 ---
-#### Вторая нормальная форма (2НФ)
+#### Вторая нормальная форма (2НФ) [наверх](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/HW1.md#содержание)
 
 **Приведение к 2НФ**
 
@@ -95,7 +95,7 @@
 
 ---
 
-#### Третья нормальная форма (3НФ)
+#### Третья нормальная форма (3НФ) [наверх](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/HW1.md#содержание)
 Приведение к 3НФ
 3НФ требует, чтобы база данных была во 2НФ и все атрибуты были не транзитивно зависимы от первичных ключей.
 
@@ -110,7 +110,7 @@
 Не содержит транзитивных зависимостей (3НФ). Эта структура минимизирует дублирование данных, упрощает обслуживание базы данных и уменьшает риск аномалий при модификации данных.
 - [Итоговая](https://dbdiagram.io/d/DB-HW-1-after-normalization-65c79600ac844320aedd5194) стуктура баз данных.
 ---
-### Создание базы данных в DataGrip
+### Создание базы данных в DataGrip [наверх](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/HW1.md#содержание)
 Для создания базы данных использовался PostgreSQL и JetBrains DataGrip.
 Код, запущенный в консоли для создания:
 ```
@@ -165,7 +165,7 @@ CREATE TABLE Transactions (
 ```
 Сам скрипт располагается в [table_creation.sql](link)
 
-### Загрузка данных в таблицы
+### Загрузка данных в таблицы [наверх](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW1/HW1.md#содержание)
 Для загрузки данных был использован встроенный фукционал JetBrains DataGrip - Import -> Import Data from Files из заранее подготовленных csv-файлов [trasactions.csv](link) и [customers.csv](link).
 
 Для преобразования листов исходной xlsx таблицы был написан скрипт на Python [convert_to_csv.py](link)
