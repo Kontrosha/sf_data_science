@@ -17,7 +17,7 @@
 ---
 
 ## Структура проекта
-  Описание работы, выводы и выполняемые действия описаны в данном [ read.me(HW.md)
+  Описание работы, выводы и выполняемые действия описаны в данном read.me (HW.md)
   Также есть несколько папок:
   - [csv_files](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases/HW1/csv_files) - папка с файлами после конвертации из xlsx
   - [screenshots](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases/HW1/screenshots)- папка со скриншотами базы данных и таблиц
