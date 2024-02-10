@@ -12,4 +12,4 @@ Research HeadHunter database dependencies. Project can be found [here](https://g
 Create database from xlsx file. Project includes:
 - DB diagram
 - SQL requests
-Project can be found [here]([link will be soon avaliable](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases)https://github.com/Kontrosha/sf_data_science/tree/main/data_bases)
+Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases)
