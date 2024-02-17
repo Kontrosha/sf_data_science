@@ -69,7 +69,7 @@ CREATE TABLE transaction (
     FOREIGN KEY (customer_id) REFERENCES customer(customer_id)
 );
 ```
-После создания таблицы были заполнены из файлов [customers.csv]() и [transaction.csv]() с помощью встроенного функционала JetBrains DataGrip: *Table -> Context Menu -> Import/Export -> Import Data from file(s)...*
+После создания таблицы были заполнены из файлов [customers.csv](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW2/customer.csv) и [transaction.csv](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW2/transaction.csv) с помощью встроенного функционала JetBrains DataGrip: *Table -> Context Menu -> Import/Export -> Import Data from file(s)...*
 
 Итоговый вид таблиц:
 - customers
