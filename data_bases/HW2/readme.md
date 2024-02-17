@@ -23,8 +23,8 @@
 
 ## Содержание проекта
 Ниже представлена структура и содержание папок проекта:
-- **screenshots** содержит скриншоты с заполнеными таблицами и их структурой
-- **scripts** содержит все скрипты на SQL
+- [**screenshots**](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases/HW2/screenshots) содержит скриншоты с заполнеными таблицами и их структурой
+- [**scripts**](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases/HW2/sripts) содержит все скрипты на SQL
 
 ## Создание таблиц
 Скрипты для создания таблиц `customer` и `transaction`.
