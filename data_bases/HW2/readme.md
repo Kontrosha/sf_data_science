@@ -73,7 +73,12 @@ CREATE TABLE transaction (
 
 Итоговый вид таблиц:
 - customers
+  ![customers_table](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW2/screenshots/table_customers.png)
+  ![customers_table_stucture](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW2/screenshots/table_customers_structure.png)
+  
 - transaction
+  ![transaction_table](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW2/screenshots/table_transaction.png)
+  ![transaction_table_stucture](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW2/screenshots/table_transaction_stucture.png)
 
 ## Преобразование колонок
 Преобразование колонок `list_price_char`, `standard_cost_char` и `transaction_date` для корректной работы с данными.
