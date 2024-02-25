@@ -16,9 +16,9 @@
 
 
 ## Структура проекта
-- requests.sql - запросы в таблицы
-- csv - папка с таблицами в формате csv
-- screenshots - папка со скриншотами
+- [requests.sql](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW3/requests.sql) - запросы в таблицы
+- [csv](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases/HW3/csv) - папка с таблицами в формате csv
+- [screenshots](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases/HW3/screenshots) - папка со скриншотами
 
 ## Выполнение работы
 
@@ -76,6 +76,11 @@ alter table transaction
 ```
 
 Таблицы были заполнены с помощью встроенного функционала DataGrip: *Import/Export -> Import from File(s)...*
+Итоговый вид таблиц:
+- customer
+    ![customers_table](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW3/screenshots/table_customer.png)
+- transaction
+    ![transaction_table](https://github.com/Kontrosha/sf_data_science/blob/main/data_bases/HW3/screenshots/table_transaction.png)
 
 ### Выполнение запросов
 
