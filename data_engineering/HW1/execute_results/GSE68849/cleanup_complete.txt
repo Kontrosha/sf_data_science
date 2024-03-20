@@ -1,0 +1,4 @@
+Deleted files:
+execute_results/GSE68849/extracted/GPL10558_HumanHT-12_V4_0_R2_15002873_B/GPL10558_HumanHT-12_V4_0_R2_15002873_B.txt
+execute_results/GSE68849/extracted/GPL10558_HumanHT-12_V4_0_R1_15002873_B/GPL10558_HumanHT-12_V4_0_R1_15002873_B.txt
+execute_results/GSE68849/extracted/extraction_complete.txt
