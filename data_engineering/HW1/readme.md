@@ -94,8 +94,8 @@ HW1/
 ### Результаты
 #### Результат работы в интерфейсе Luigi
 На картинках ниже отображен успешно выполненный пайплайн:
-
-
+![run_pipeline](https://github.com/Kontrosha/sf_data_science/blob/main/data_engineering/HW1/screenshots/run_pipeline.png)
+![pipeline_graph](https://github.com/Kontrosha/sf_data_science/blob/main/data_engineering/HW1/screenshots/pipeline_graph.png)  
 #### Краткий вывод
 В ходе выполнения данного домашнего задания мы познакомились с фреймворком Luigi для организации и управления пайплайнами обработки данных. Мы реализовали пайплайн, который включает в себя скачивание данных, их разархивацию, обработку и подготовку к дальнейшему анализу, а также финальную очистку рабочей директории от временных файлов.
 
