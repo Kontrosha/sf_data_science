@@ -15,7 +15,7 @@ Create database from xlsx file. Project includes:
 
 Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/main/data_bases)
 
-## Project 4
+## Project 4 🎷
 Simple pipeline based on Luigi framework
 Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/main/data_engineering)
 
