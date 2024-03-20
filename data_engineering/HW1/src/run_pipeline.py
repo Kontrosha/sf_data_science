@@ -21,8 +21,8 @@ if __name__ == "__main__":
     build([
         # FindDownloadLink(dataset_name=ds_name),
         # DownloadDataset(dataset_name=ds_name),
-        ExtractAndOrganize(dataset_name=ds_name),
+        # ExtractAndOrganize(dataset_name=ds_name),
         # SplitTextFiles(dataset_name=ds_name),
         # CreateReducedTables(dataset_name=ds_name),
-        # Cleanup(dataset_name=ds_name)
+        Cleanup(dataset_name=ds_name)
     ], local_scheduler=False)
