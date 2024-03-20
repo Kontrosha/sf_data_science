@@ -83,7 +83,7 @@ HW1/
 
 ```
 *Структура папки [src](https://github.com/Kontrosha/sf_data_science/tree/main/data_engineering/HW1/src):* содержит все скрипты пайплайна, разделенные по задачам.  
-*Структура папки execute_results:* содержит результаты выполнения пайплайна, включая скачанные и обработанные данные.
+*Структура папки [execute_results](https://github.com/Kontrosha/sf_data_science/tree/main/data_engineering/HW1/execute_results):* содержит результаты выполнения пайплайна, включая скачанные и обработанные данные.
 
 #### Краткое описание используемых модулей
 - **os**: используется для взаимодействия с файловой системой.
