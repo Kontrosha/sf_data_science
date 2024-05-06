@@ -1,0 +1,7 @@
+# config.yaml
+data_path: 'tables/profit_table.csv'
+output_folder: 'output'
+output_name: 'flags_activity'
+output_exe: 'csv'
+transform_module: 'scripts/transform_script.py'
+transform_function: 'transfrom'  # Оставим название функции с опечаткой
