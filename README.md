@@ -17,5 +17,9 @@ Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/ma
 
 ## Project 4 🎷
 Simple pipeline based on Luigi framework
-Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/main/data_engineering)
+Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/main/data_engineering/HW1)
+
+## Project 5 🪁
+Creating etl pipeline with Airflow 
+Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/main/data_engineering/HW2)
 
