@@ -22,7 +22,7 @@ with open(config_path, 'r') as file:
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 data_path = os.path.join(BASE_PATH, config['data_path'])
 date_today = datetime.now().strftime('%Y-%m-01')
-output_path = os.path.join(BASE_PATH, config['output_folder'], config['output_name']+date_today+'.'+config['output_exe'])
+output_path = os.path.join(BASE_PATH, config['output_folder'], config['output_name']+'.'+config['output_exe'])
 transform_module = config['transform_module']
 transform_function = config['transform_function']
 
