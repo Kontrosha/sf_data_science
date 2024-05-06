@@ -63,7 +63,7 @@ def load_data(**kwargs):
     except Exception as e:
         raise AirflowException(f"Failed to write data to {output_path}: {str(e)}")
 
-with DAG('customer_activity_etl_parallel',
+with DAG('kate_chuiko_customer_activity_etl_parallel',
          start_date=datetime(2023, 10, 5),
          schedule_interval='0 0 5 * *',
          catchup=False) as dag:
