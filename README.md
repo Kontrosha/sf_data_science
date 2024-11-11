@@ -23,3 +23,11 @@ Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/ma
 Creating etl pipeline with Airflow 
 Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/main/data_engineering/HW2)
 
+## Project 6 🐳
+Simple work with Docker
+Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/main/ml_ops/HW1)
+
+## Project 7 🐳
+Creating pipeline for GitLab CI with Docker
+Project can be found [here](https://github.com/Kontrosha/sf_data_science/tree/main/ml_ops/HW2)
+
