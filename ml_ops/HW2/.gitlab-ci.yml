@@ -1,0 +1,35 @@
+---
+stages:
+  - build
+  - deploy
+
+variables:
+  IMAGE_NAME: "$CI_REGISTRY_IMAGE/my-service"
+  IMAGE_TAG: "$CI_COMMIT_SHORT_SHA"
+
+build_and_push_image:
+  stage: build
+  script:
+    - echo "Сборка Docker-образа"
+    - docker build -t $IMAGE_NAME:$IMAGE_TAG .
+    - echo "Авторизация в Docker Registry"
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
+    - echo "Пуш Docker-образа"
+    - docker push $IMAGE_NAME:$IMAGE_TAG
+  only:
+    - main  # Run only in "main" branch
+  tags:
+    - docker
+
+deploy_with_docker_compose:
+  stage: deploy
+  script:
+    - echo "Подключение к виртуальной машине"
+    - ssh $DEPLOY_USER@$DEPLOY_HOST "mkdir -p ~/my-service-deploy"
+    - echo "Копирование docker-compose.yml"
+    - scp docker-compose.yml $DEPLOY_USER@$DEPLOY_HOST:~/my-service-deploy/
+    - ssh $DEPLOY_USER@$DEPLOY_HOST "cd ~/my-service-deploy && docker-compose pull && docker-compose up -d"
+  only:
+    - main  # Run only in "main" branch
+  tags:
+    - ssh
