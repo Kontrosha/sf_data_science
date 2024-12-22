@@ -67,3 +67,4 @@ docker-compose up --build
   1669147141.035324,189.0,204.06,15.06
 
 - **`Файл с гистограммой распределения абсолютных ошибок`**.
+  ![Гистограмма абсолютных ошибок](microservice_architecture/histogram_example.png)
